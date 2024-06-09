@@ -72,12 +72,11 @@ keyboard = InlineKeyboardMarkup(
                InlineKeyboardButton("Help & Commands", callback_data="help"),
             ],
             [
-               InlineKeyboardButton(text="⚖ Owner", user_id=OWNER),
-               InlineKeyboardButton(text="Source 🌐", url="https://github.com/TeamDeCode/DcSpamBot"), 
+               InlineKeyboardButton(text="⚖ Owner", user_id=OWNER),                
             ], 
             [
-               InlineKeyboardButton(text="👥 Support", url="t.me/DeCode_Support"),
-               InlineKeyboardButton(text="UpDate 📢", url="t.me/DeCodeUpDate"),
+               InlineKeyboardButton(text="👥 Support", url="t.me/broknxsupport"),
+               InlineKeyboardButton(text="UpDate 📢", url="t.me/brokenxnetwork"),
             ],
             [
                InlineKeyboardButton(text="❌ Close", callback_data="cls"),
@@ -101,9 +100,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton("CᴀʀBᴏɴ", callback_data="carbon"),
             ],
             [
-               InlineKeyboardButton("╰✰ Cʜᴀɴɴᴇʟ", url=f"https://t.me/DeCodeUpDate"),
+               InlineKeyboardButton("╰✰ Cʜᴀɴɴᴇʟ", url=f"https://t.me/Brokenxnetwork"),
                InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start"),
-               InlineKeyboardButton ("Sᴜᴘᴘᴏʀᴛ ✰╮", url=f"https://t.me/DeCode_Support"),
+               InlineKeyboardButton ("Sᴜᴘᴘᴏʀᴛ ✰╮", url=f"https://t.me/BroknxSupport"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)        
@@ -135,7 +134,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpDate"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/brokenxnetwork"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -151,7 +150,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpDate"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/brokenxnetwork"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -167,7 +166,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpDate"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/brokenxnetwork"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -183,7 +182,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpDate"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/brokenxnetwork"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -202,11 +201,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("⚖ Owner", user_id=OWNER),
-                InlineKeyboardButton("Source 🌐", url=f"https://github.com/TeamDeCode/DcSpamBot"),
             ],
             [
-                InlineKeyboardButton("👥 Support", url=f"https://t.me/DeCode_Support"),
-                InlineKeyboardButton("UpDate 📢", url=f"https://t.me/DeCodeUpDate"),
+                InlineKeyboardButton("👥 Support", url=f"https://t.me/broknxsupport"),
+                InlineKeyboardButton("UpDate 📢", url=f"https://t.me/Brokenxnetwork"),
             ],
             [
                InlineKeyboardButton("❌ Close", callback_data="cls"),
@@ -224,6 +222,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 @Client.on_message(filters.command(["start", "active"], [".", "/", "!"]))
 async def start_private(client: Client, message: Message):
    await message.delete() 
-   await message.reply_text(f"**Hey 👋** {message.from_user.mention()}`\n\nWelcome To DcSpamBot`\n`This SpamBot Is Powerfull SpamBot Made On Python With PyroGram`\n\n`This Is Open Source SpamBot To Raid Chats In TeleGram Within Fight Between Two Clan Or Between To People`\n\n`Please Not That Anything Wrong Happeneds With This SpamBot To Anyone Then We Are Not Responsible Cause We Just Created The Source Not The Handler Of The Bot!`",
+   await message.reply_text(f"**Hey 👋** {message.from_user.mention()}`\n\nWelcome To BrokenSpamBot`\n`This SpamBot Is Powerfull SpamBot Made On Python With PyroGram`\n\n`This Is Open Source SpamBot To Raid Chats In TeleGram Within Fight Between Two Clan Or Between To People`\n\n`Please Not That Anything Wrong Happeneds With This SpamBot To Anyone Then We Are Not Responsible Cause We Just Created The Source Not The Handler Of The Bot!`\nDev: @BrokenXnetwork",
                     reply_markup=keyboard,                     
 ) 
