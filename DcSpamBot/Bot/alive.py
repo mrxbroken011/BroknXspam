@@ -56,7 +56,7 @@ async def alive(client, m: Message):
     delta_ping = time() - start
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))   
-    reply_msg = f"**MADE IN 🇮🇳, MADE FOR 💜**\n"
+    reply_msg = f"**MADE BY Mr Broken**\n"
     reply_msg += f"═══════════════════\n"
     reply_msg += f"🔸 `Python`: **{__python_version__}\n"
     reply_msg += f"🔹 `Ping `: **{delta_ping * 1000:.3f}ᵐˢ**\n"
@@ -65,7 +65,7 @@ async def alive(client, m: Message):
     reply_msg += f"🔸 `PyroGram`: **{__pyro_version__}**\n"    
     reply_msg += f"🔹 `DeCoDe Uptime`: **{uptime}**\n"
     reply_msg += f"═══════════════════\n\n"
-    reply_msg += f"**JOIN** [@TeamDeCoDe](https://t.me/decode_support) **FOR HELP**\n"
+    reply_msg += f"**JOIN** [@BrokenXnetwork](https://t.me/brokenxnetwork) **FOR HELP**\n"
     await m.delete()
     await m.reply_photo(photo=f"{ALIVE_PIC}", caption=reply_msg,
                reply_markup=keyboard,                     
