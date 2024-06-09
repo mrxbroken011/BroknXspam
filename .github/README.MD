@@ -17,7 +17,7 @@
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TeamDeCode/DcSpamBot"><img align="center" alt="Heroku" width="92px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
 
 
-#### [THIS ALSO FOR HEROKU](https://heroku.com/deploy?template=https://github.com/TeamDeCode/SpamDeploy) 
+#### [THIS ALSO FOR HEROKU](https://heroku.com/deploy?template=https://github.com/Mrxbroken011/broknxspamDeploy) 
 
 ## What Is DcSpamBot
 
@@ -75,6 +75,6 @@ Here are the vars In Bot
 
 # CᴏɴᴛʀɪBᴜᴛᴏʀꜱ
 
-![GitHub Contributors Image](https://contrib.rocks/image?repo=TeamDeCode/DcSpamBot)
+![GitHub Contributors Image](https://contrib.rocks/image?repo=mrxbroken011/broknxspam)
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
