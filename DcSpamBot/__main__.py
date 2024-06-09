@@ -15,52 +15,52 @@ async def main():
     await bot1.start() 
     await bot1.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot2.start() 
     await bot2.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot3.start() 
     await bot3.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot4.start() 
     await bot4.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot5.start() 
     await bot5.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot6.start() 
     await bot6.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot7.start() 
     await bot7.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot8.start() 
     await bot8.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot9.start() 
     await bot9.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await bot10.start() 
     await bot10.send_message(
             LOGGER, 
-            "<b> Congrats!! DcSpamBot Started Successfully!</b>", 
+            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
         ) 
     await idle()
 
@@ -70,7 +70,7 @@ async def main():
 '''SPAM BOT LOGS'''
 
 botlogs = "Yeah Your Spam Bot Deploying Successfully, "
-team = "© TeamDeCode"
+team = "© BROKEN X NETWORK"
 c = botlogs + team
 print(c)
 
