@@ -33,15 +33,15 @@ ALIVE_PIC = ALIVE_PIC
 # VARS FOR BOT SPAMBOT
 
 TOKEN1 = TOKEN1
-TOKEN2 = TOKEN2
-TOKEN3 = TOKEN3
-TOKEN4 = TOKEN4
-TOKEN5 = TOKEN5 
-TOKEN6 = TOKEN6
-TOKEN7 = TOKEN7
-TOKEN8 = TOKEN8
-TOKEN9 = TOKEN9
-TOKEN10 = TOKEN10
+#TOKEN2 = TOKEN2
+#TOKEN3 = TOKEN3
+#TOKEN4 = TOKEN4
+#TOKEN5 = TOKEN5 
+#TOKEN6 = TOKEN6
+#TOKEN7 = TOKEN7
+#TOKEN8 = TOKEN8
+#TOKEN9 = TOKEN9
+#TOKEN10 = TOKEN10
 
 if ALIVE_PIC:
     ALIVE_PIC = ALIVE_PIC
@@ -68,60 +68,60 @@ if TOKEN1:
 else:
     bot1 = None
 
-if TOKEN2:
-    print("[INFO] TOKEN2 Found!! Booting SpamBot Client3... ") 
-    bot2 = Client(":memory:", bot_token=TOKEN2, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot2 = None
+#if TOKEN2:
+   # print("[INFO] TOKEN2 Found!! Booting SpamBot Client3... ") 
+  #  bot2 = Client(":memory:", bot_token=TOKEN2, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+ #   bot2 = None
 
 
-if TOKEN3:
-    print("[INFO] TOKEN3 Found!! Booting SpamBot Client3... ") 
-    bot3 = Client(":memory:", bot_token=TOKEN3, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot3 = None
+#if TOKEN3:
+#    print("[INFO] TOKEN3 Found!! Booting SpamBot Client3... ") 
+   # bot3 = Client(":memory:", bot_token=TOKEN3, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+  #  bot3 = None
 
-if TOKEN4:
-    print("[INFO] TOKEN4 Found!! Booting SpamBot Client4... ") 
-    bot4 = Client(":memory:", bot_token=TOKEN4, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot4 = None
+#if TOKEN4:
+ #   print("[INFO] TOKEN4 Found!! Booting SpamBot Client4... ") 
+  #  bot4 = Client(":memory:", bot_token=TOKEN4, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+ #   bot4 = None
 
-if TOKEN5:
-    print("[INFO] TOKEN5 Found!! Booting SpamBot Client5... ") 
-    bot5 = Client(":memory:", bot_token=TOKEN5, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot5 = None
+#if TOKEN5:
+   # print("[INFO] TOKEN5 Found!! Booting SpamBot Client5... ") 
+ #   bot5 = Client(":memory:", bot_token=TOKEN5, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+ #   bot5 = None
 
-if TOKEN6:
-    print("[INFO] TOKEN6 Found!! Booting SpamBot Client6... ") 
-    bot6 = Client(":memory:", bot_token=TOKEN6, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot6 = None
+#if TOKEN6:
+    #print("[INFO] TOKEN6 Found!! Booting SpamBot Client6... ") 
+    #bot6 = Client(":memory:", bot_token=TOKEN6, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+#    bot6 = None
 
-if TOKEN7:
-    print("[INFO] TOKEN7 Found!! Booting SpamBot Client7... ") 
-    bot7 = Client(":memory:", bot_token=TOKEN7, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot7 = None
+#if TOKEN7:
+  #  print("[INFO] TOKEN7 Found!! Booting SpamBot Client7... ") 
+  #  bot7 = Client(":memory:", bot_token=TOKEN7, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+   # bot7 = None
 
-if TOKEN8:
-    print("[INFO] TOKEN8 Found!! Booting SpamBot Client8... ") 
-    bot8 = Client(":memory:", bot_token=TOKEN8, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot8 = None
+#if TOKEN8:
+  #  print("[INFO] TOKEN8 Found!! Booting SpamBot Client8... ") 
+  #  bot8 = Client(":memory:", bot_token=TOKEN8, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+    #bot8 = None
 
-if TOKEN9:
-    print("[INFO] TOKEN9 Found!! Booting SpamBot Client9... ") 
-    bot9 = Client(":memory:", bot_token=TOKEN9, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot9 = None
+#if TOKEN9:
+   # print("[INFO] TOKEN9 Found!! Booting SpamBot Client9... ") 
+  #  bot9 = Client(":memory:", bot_token=TOKEN9, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+    #bot9 = None
 
-if TOKEN10:
-    print("[INFO] TOKEN10 Found!! Booting SpamBot Client10... ") 
-    bot10 = Client(":memory:", bot_token=TOKEN10, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
-else:
-    bot10 = None
+#if TOKEN10:
+#    print("[INFO] TOKEN10 Found!! Booting SpamBot Client10... ") 
+  #  bot10 = Client(":memory:", bot_token=TOKEN10, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="DcSpam.Bot"))
+#else:
+#    bot10 = None
 
 
 
