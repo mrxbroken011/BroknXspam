@@ -41,7 +41,7 @@ async def main():
   #  await bot6.send_message(
           #  LOGGER, 
      #       "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
+     #   ) 
    # await bot7.start() 
   #  await bot7.send_message(
       #      LOGGER, 
