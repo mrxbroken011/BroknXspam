@@ -46,7 +46,7 @@ TOKEN10 = TOKEN10
 if ALIVE_PIC:
     ALIVE_PIC = ALIVE_PIC
 else: 
-    ALIVE_PIC = "https://telegra.ph/file/a9b56319322553da4b240.jpg"
+    ALIVE_PIC = "https://telegra.ph/file/888a7ea19a04181a64b1a.jpg"
 
 if not TOKEN1:
     logging.error("No Token Found! Exiting!")
