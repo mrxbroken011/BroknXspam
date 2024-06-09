@@ -1,81 +1,29 @@
-#
-# Copyright (C) 2022-2023 by DeCode@Github, < https://github.com/TeamDeCode >.
-#
-# This file is part of < https://github.com/TeamDeCode/DcSpamBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamDeCode/DcSpamBot/blob/main/LICENSE >
-#
-# All rights reserved.
-
 import asyncio
 from pyrogram import idle
 from DcSpamBot import bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8, bot9, bot10, LOGGER
 
+# List of bots
+bots = [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8, bot9, bot10]
+
+async def start_bot(bot):
+    try:
+        await bot.start()
+        await bot.send_message(LOGGER, "<b> Congrats!! BrokenSpamBot Started Successfully!</b>")
+    except Exception as e:
+        print(f"Failed to start bot {bot}: {e}")
+
 async def main():
-    await bot1.start() 
-    await bot1.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot2.start() 
-    await bot2.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot3.start() 
-    await bot3.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot4.start() 
-    await bot4.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot5.start() 
-    await bot5.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot6.start() 
-    await bot6.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot7.start() 
-    await bot7.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot8.start() 
-    await bot8.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot9.start() 
-    await bot9.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
-    await bot10.start() 
-    await bot10.send_message(
-            LOGGER, 
-            "<b> Congrats!! BrokenSpamBot Started Successfully!</b>", 
-        ) 
+    # Start all bots concurrently
+    await asyncio.gather(*(start_bot(bot) for bot in bots))
+    # Keep the program running to maintain the bot sessions
     await idle()
 
+if __name__ == "__main__":
+    # Log message
+    botlogs = "Yeah Your Spam Bot Deploying Successfully, "
+    team = "© BROKEN X NETWORK"
+    print(botlogs + team)
 
-
-
-'''SPAM BOT LOGS'''
-
-botlogs = "Yeah Your Spam Bot Deploying Successfully, "
-team = "© BROKEN X NETWORK"
-c = botlogs + team
-print(c)
-
-
-    
-
-loop = asyncio.get_event_loop()
-loop.run_until_complete(main())
+    # Run the main function
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
