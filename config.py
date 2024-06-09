@@ -9,11 +9,11 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID")) 
 API_HASH = getenv("API_HASH") 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5391883908").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6285272906").split()))
 LOGGER = int(getenv("LOGGER", None)) 
-OWNER = int(getenv("OWNER_ID")) 
+OWNER = int(getenv("OWNER_ID", "1841914911")) 
 NAME = getenv("ALIVE_NAME")
-OWN_USERNAME= getenv("OWN_USERNAME")
+OWN_USERNAME= getenv("OWN_USERNAME", "Mrbrokn")
 ALIVE_PIC = getenv("ALIVE_PIC") 
 
 # FOR SPAMBOT
