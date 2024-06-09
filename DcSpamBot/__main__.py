@@ -78,4 +78,4 @@ print(c)
     
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(bot())
+loop.run_until_complete(main())
