@@ -222,6 +222,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 @Client.on_message(filters.command(["start", "active"], [".", "/", "!"]))
 async def start_private(client: Client, message: Message):
    await message.delete() 
-   await message.reply_text(f"**Hey 👋** {message.from_user.mention()}`\n\nWelcome To BrokenSpamBot`\n`This SpamBot Is Powerfull SpamBot Made On Python With PyroGram`\n\n`This Is Open Source SpamBot To Raid Chats In TeleGram Within Fight Between Two Clan Or Between To People`\n\n`Please Not That Anything Wrong Happeneds With This SpamBot To Anyone Then We Are Not Responsible Cause We Just Created The Source Not The Handler Of The Bot!`\nDev: @BrokenXnetwork",
+   await message.reply_text(f"**Hey 👋** {message.from_user.mention()}`\n\nWelcome To BrokenSpamBot`\n`This SpamBot Is Powerfull SpamBot Made On Python With PyroGram`\n\n`This Is Open Source SpamBot To Raid Chats In TeleGram Within Fight Between Two Clan Or Between To People`\n\n`Please Not That Anything Wrong Happeneds With This SpamBot To Anyone Then We Are Not Responsible Cause We Just Created The Source Not The Handler Of The Bot!`\nDev: [@BrokenXnetwork](https://t.me/brokenxnetwork)",
                     reply_markup=keyboard,                     
 ) 
