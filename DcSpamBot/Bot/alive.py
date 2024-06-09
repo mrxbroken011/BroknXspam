@@ -44,7 +44,7 @@ async def _human_time_duration(seconds):
 keyboard = InlineKeyboardMarkup(
         [            
             [
-                InlineKeyboardButton(text="Deploy ✔️", url="https://t.me/DeCodeUpdate"),
+                InlineKeyboardButton(text="Deploy ✔️", url="https://t.me/broknxsupport"),
             ],
         ]
     )
@@ -65,7 +65,7 @@ async def alive(client, m: Message):
     reply_msg += f"🔸 `PyroGram`: **{__pyro_version__}**\n"    
     reply_msg += f"🔹 `DeCoDe Uptime`: **{uptime}**\n"
     reply_msg += f"═══════════════════\n\n"
-    reply_msg += f"**JOIN** [@BrokenXnetwork](https://t.me/brokenxnetwork) **FOR HELP**\n"
+    reply_msg += f"**JOIN** [@BrokenXnetwork](https://t.me/brokenxnetwork) **FOR HELP AND SUDO**\n"
     await m.delete()
     await m.reply_photo(photo=f"{ALIVE_PIC}", caption=reply_msg,
                reply_markup=keyboard,                     
